@@ -38,10 +38,12 @@ colors = [ "blue", "pink", "red", "yellow" ]
   
 end
 
-def retrieve_first_element_from_array(array)
+colors = [ "blue", "pink", "red", "yellow" ]
+ colors[0]
   
 end
 
-def retrieve_last_element_from_array(array)
+colors= [ "blue", "pink", "red", "yellow" ]
+ colors[-1]
   
 end
