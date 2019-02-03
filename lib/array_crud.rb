@@ -1,49 +1,36 @@
-colors = []
+def create_an_empty_array
   
 end
 
-colors = [ "blue", "pink", "red", "yellow" ]
-  
-  
-end
-
-colors = ["blue", "pink", "red", "yellow"]
-  colors.push("orange")
-  puts colors.inspect
+def create_an_array
   
 end
 
-colors = ["blue", "pink", "red", "yellow"]
-  colors.unshift("purple")
-  puts colors.inspect
-
-end
-
-colors = [ "blue", "pink", "red", "yellow" ]
-  yellow = colors.pop
-  puts colors.inspect
-  puts yellow
+def add_element_to_end_of_array(array, element)
   
 end
 
-colors = [ "blue", "pink", "red", "yellow" ]
-  blue = colors.unshift
-  puts colors.inspect
-  puts blue
+def add_element_to_start_of_array(array, element)
   
 end
 
-colors = [ "blue", "pink", "red", "yellow" ]
- colors.index(red)
+def remove_element_from_end_of_array(array)
   
 end
 
-colors = [ "blue", "pink", "red", "yellow" ]
- colors[0]
+def remove_element_from_start_of_array(array)
   
 end
 
-colors= [ "blue", "pink", "red", "yellow" ]
- colors[-1]
+def retrieve_element_from_index(array, index_number)
+  array.index_number()
+end
+
+def retrieve_first_element_from_array(array)
+  array[0]
+end
+
+def retrieve_last_element_from_array(array)
+  array[-1]
   
 end
