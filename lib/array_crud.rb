@@ -34,7 +34,7 @@ colors = [ "blue", "pink", "red", "yellow" ]
 end
 
 colors = [ "blue", "pink", "red", "yellow" ]
- index()
+ colors.index(red)
   
 end
 
