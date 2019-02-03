@@ -1,5 +1,4 @@
- 
- colors = []
+colors = []
   
 end
 
