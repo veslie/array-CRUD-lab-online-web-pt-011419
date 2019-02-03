@@ -1,28 +1,40 @@
-def create_an_empty_array
+ colors = []
   
 end
 
-def create_an_array
+colors = [ "blue", "pink", "red", "yellow" ]
+  
   
 end
 
-def add_element_to_end_of_array(array, element)
+colors = ["blue", "pink", "red", "yellow"]
+  colors.push("orange")
+  puts colors.inspect
   
 end
 
-def add_element_to_start_of_array(array, element)
+colors = ["blue", "pink", "red", "yellow"]
+  colors.unshift("purple")
+  puts colors.inspect
+
+end
+
+colors = [ "blue", "pink", "red", "yellow" ]
+  yellow = colors.pop
+  puts colors.inspect
+  puts yellow
   
 end
 
-def remove_element_from_end_of_array(array)
+colors = [ "blue", "pink", "red", "yellow" ]
+  blue = colors.unshift
+  puts colors.inspect
+  puts blue
   
 end
 
-def remove_element_from_start_of_array(array)
-  
-end
-
-def retrieve_element_from_index(array, index_number)
+colors = [ "blue", "pink", "red", "yellow" ]
+ index()
   
 end
 
